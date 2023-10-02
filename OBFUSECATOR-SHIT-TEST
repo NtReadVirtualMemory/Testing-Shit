@@ -2,12 +2,11 @@ local RemoteData = game:WaitForChild("_REMOTES_NEKO_")
 local PlaceHASHName = RemoteData:FindFirstChild("BlockPlaceHashData").Value
 local PlaceHASH = _G.BlockPlaceHash
 
-local ohTable1 
-= {
+local ohTable1 = {
 									["upperBlock"] = false,
-									[CropPlaceH1] = PlaceHASH,
-									["cframe"] = "XPOSITION",
-									["blockType"] = "XXX1"
-}
+									[PlaceHASHName] = PlaceHASH,
+									["cframe"] = "cframe-position",
+									["blockType"] = "block-Name"
+								}
 
 return ohTable1
